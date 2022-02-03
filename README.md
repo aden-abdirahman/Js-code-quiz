@@ -8,4 +8,4 @@ Screenshots of App:
 ![](assets/images/screenshot1.png)
 ![](assets/images/screenshot2.png)
 
-Links to website:
+Links to website:https://aden-abdirahman.github.io/Js-code-quiz/
