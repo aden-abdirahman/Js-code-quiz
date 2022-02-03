@@ -80,7 +80,7 @@ const questions = [
        
         question: "Commonly used data types do NOT include:",
         answers: ["strings", "booleans", "alerts", "numbers"],
-        correctAnswer: "1"
+        correctAnswer: "2"
     },
     {
         question: "The condition in an if / else statement is enclosed within ____.",
