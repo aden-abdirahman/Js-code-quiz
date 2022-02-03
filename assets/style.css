@@ -1,1 +1,58 @@
+/* setting height for page */
+html,
+body {
+  height: 100%;
+}
 
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/* setting properties for main content */
+main {
+  flex: 1 0 auto;
+}
+
+/* hide sections until they are shown via the click events */
+#highscores,
+#final,
+#yesNo,
+#questions {
+  display: none;
+}
+
+/* shows list items without bullet ponts */
+.answers {
+  list-style-type: none;
+}
+
+/* setting properties for buttons */
+.ansBtn,
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+  box-shadow: none;
+  outline: none;
+  background-color: #28a745;
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: rgb(97, 149, 167);
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+}
